@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Bakery Store Inventory</string>
+
+    <!-- Labels -->
+    <string name="label_product_name">Product Name *</string>
+    <string name="label_product_name_detail">Product Name</string>
+    <string name="label_price">Price *</string>
+    <string name="label_price_detail">Price</string>
+    <string name="label_discount">Sale Price</string>
+    <string name="label_quantity">Stock *</string>
+    <string name="label_quantity_detail">Adjust Product Quantity</string>
+    <string name="label_supplier">Supplier Name *</string>
+    <string name="label_supplier_detail">Supplier Name</string>
+    <string name="label_email">Supplier Email *</string>
+    <string name="label_email_detail">Email</string>
+    <string name="label_phone">Supplier Phone</string>
+    <string name="label_phone_detail">Phone</string>
+    <string name="label_image">Add image</string>
+    <string name="label_change_image">Change image</string>
+    <string name="label_test_add_data">Fill Data</string>
+    <string name="label_email_subject">Re: Ordering stock for %s</string>
+    <string name="empty_store_title">Bakery Store is empty !</string>
+    <string name="empty_store_subtitle">start adding products to the cart</string>
+    <!-- Activity Titles -->
+    <string name="title_add">Add an Item</string>
+    <string name="title_edit">Edit an Item</string>
+    <string name="title_detail">Item Details</string>
+    <string name="title_settings">List Settings</string>
+
+
+    <!-- Display Strings -->
+    <string name="display_product_price">Price: $%.2f</string>
+    <string name="display_product_stock">Quantity: %d</string>
+
+
+    <!-- Menu Strings -->
+    <string name="menu_delete_all">Delete All Items</string>
+    <string name="menu_delete">Delete Item</string>
+    <string name="menu_edit">Edit Item</string>
+    <string name="menu_add_item">Add Item</string>
+    <string name="menu_settings">Settings</string>
+
+
+    <!-- Exception Messages -->
+    <string name="exception_unknown_uri">URI provided is unknown, and cannot be queried => %s</string>
+    <string name="exception_invalid_name">Product Name is invalid</string>
+    <string name="exception_invalid_price">Product Price is invalid</string>
+    <string name="exception_invalid_discount_price">Product Discount Price is invalid</string>
+    <string name="exception_invalid_stock">Product Stock is invalid</string>
+    <string name="exception_invalid_supplier">Supplier Name is invalid</string>
+    <string name="exception_invalid_supplier_email">Supplier Email is invalid</string>
+    <string name="exception_image_load_failed">Failed to load image</string>
+
+    <!-- Error Messages -->
+    <string name="error_product">enter a product name</string>
+    <string name="error_price">enter a price for the product</string>
+    <string name="error_quantity">enter product quantity</string>
+    <string name="error_supplier">Supplier Name cannot be empty</string>
+    <string name="error_email">Supplier Email is invalid</string>
+    <string name="error_no_image">add an image for the product</string>
+    <string name="error_insert">Failed to insert the record => %s</string>
+    <string name="error_stock_update">Failed to reduce quantity</string>
+    <string name="error_delete_all_entries">Failed to delete all entries</string>
+    <string name="error_delete_failed">Failed to delete item</string>
+    <string name="error_insert_failed">Record could not be saved</string>
+    <string name="error_update_failed">Record could not be updated</string>
+
+
+    <string name="dialog_unsaved_changes">Discard your changes and quit editing?</string>
+    <string name="action_yes">YES</string>
+    <string name="action_no">NO</string>
+    <string name="action_select_picture">Select Image</string>
+
+
+    <!-- Confirmation Messages -->
+    <string name="confirm_delete_all_entries">All products deleted</string>
+    <string name="confirm_insert_successful">Product record inserted successfully</string>
+    <string name="confirm_delete_successful">Product record deleted successfully</string>
+    <string name="confirm_update_successful">Product record updated successfully</string>
+
+
+
+
+</resources>

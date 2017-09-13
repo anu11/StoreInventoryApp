@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:fillViewport="true"
+    tools:context="com.example.storeinventoryapp.viewcontroller.ProductEditorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingLeft="@dimen/dimen_4dp">
+
+            <TextView
+                android:id="@+id/text_label_product"
+                style="@style/CategoryStyle"
+                android:text="@string/label_product_name"/>
+
+            <EditText
+                android:id="@+id/edit_product_name"
+                style="@style/EditorFieldStyle"
+                android:inputType="textCapWords"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingLeft="@dimen/dimen_4dp">
+            <TextView
+                android:id="@+id/text_label_price"
+                style="@style/CategoryStyle"
+                android:text="@string/label_price"/>
+
+            <EditText
+                android:id="@+id/edit_product_price"
+                style="@style/EditorFieldStyle"
+                android:hint="$"
+                android:inputType="numberDecimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingLeft="@dimen/dimen_4dp">
+            <TextView
+                android:id="@+id/text_label_stock"
+                style="@style/CategoryStyle"
+                android:text="@string/label_quantity"/>
+
+            <EditText
+                android:id="@+id/edit_product_stock"
+                style="@style/EditorFieldStyle"
+                android:inputType="number"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingLeft="@dimen/dimen_4dp">
+            <TextView
+                android:id="@+id/text_label_supplier"
+                style="@style/CategoryStyle"
+                android:text="@string/label_supplier"/>
+
+            <EditText
+                android:id="@+id/edit_supplier_name"
+                style="@style/EditorFieldStyle"
+                android:inputType="textCapWords"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingLeft="@dimen/dimen_4dp">
+            <TextView
+                android:id="@+id/text_label_email"
+                style="@style/CategoryStyle"
+                android:text="@string/label_email"/>
+
+            <EditText
+                android:id="@+id/edit_supplier_email"
+                style="@style/EditorFieldStyle"
+                android:inputType="textEmailAddress"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingLeft="@dimen/dimen_4dp">
+            <TextView
+                android:id="@+id/text_label_phone"
+                style="@style/CategoryStyle"
+                android:text="@string/label_phone"/>
+
+            <EditText
+                android:id="@+id/edit_supplier_phone"
+                style="@style/EditorFieldStyle"
+                android:inputType="phone"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_test_add_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_30dp"
+            android:layout_marginBottom="@dimen/dimen_30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
+            android:text="@string/label_test_add_data"/>
+
+        <Button
+            android:id="@+id/button_add_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_30dp"
+            android:layout_marginBottom="@dimen/dimen_30dp"
+            android:paddingLeft="@dimen/dimen_10dp"
+            android:paddingRight="@dimen/dimen_10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
+            android:text="@string/label_image"/>
+
+        <ImageView
+            android:id="@+id/image_product"
+            style="@style/ImageStyle" />
+
+    </LinearLayout>
+
+</ScrollView>
